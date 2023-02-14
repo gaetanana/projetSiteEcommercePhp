@@ -19,7 +19,8 @@ class Conf
         'login' => 'gonfiantinig',
         // A l'IUT, c'est votre mdp (INE par defaut)
         // Sur votre machine personelle, vous avez creez ce mdp a l'installation
-        'password' => 'Pourlesitewab40/'
+        //Le mot de passe n'y est pas car le projet est public
+        'password' => ''
     );
 
 
