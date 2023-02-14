@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.firstRow {
+    background-color: #a1a1a1;
+    font-weight: bold;
+}
+
+table img{
+    display: block;
+    margin:auto;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}

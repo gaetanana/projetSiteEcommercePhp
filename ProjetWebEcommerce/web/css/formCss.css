@@ -1,0 +1,110 @@
+
+legend{
+    font-size: 40pt;
+    font-family: Lobster
+}
+
+input {
+    display: inline-block;
+    background: white;
+    justify-content: center;
+    border: 1.5px solid;
+    border-radius: 20px ;
+    padding: 5px 10px 5px 10px;
+    width: 25vw;
+    font-family: Montserrat;
+}
+
+
+fieldset > a , fieldset > div{
+    font-family: Montserrat;
+    color: black;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    width: 10vw;
+}
+
+input[type="submit"]:hover {
+    background: #f2f2f2;
+}
+
+label {
+    display: block; /* display label on its own line */
+    font-size: 16px; /* set font size */
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0;
+    height: calc(100vh - 70px);
+    width: 100%;
+    padding: 0 1vh;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+form > img {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    max-height: calc(100vh - 40px);
+}
+
+.Formulaire, .FormulaireDroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Formulaire  p, .FormulaireDroite p{
+    margin: 8px;
+}
+
+.FormulaireAdmin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.FormulaireDroite {
+    border-left: #111111 solid 1px;
+}
+
+@media(max-width: 768px) {
+
+    form > img {
+        display: none;
+    }
+
+    input[type="submit"] {
+        width: 20vw;
+    }
+
+    input {
+        width: 60vw;
+    }
+
+    .FormulaireAdmin {
+        flex-direction: column;
+    }
+
+    .Formulaire {
+        border-bottom: #111111 solid 1px;
+        padding: 20px 0;
+    }
+}
